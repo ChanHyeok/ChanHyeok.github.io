@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: 자기소개
 permalink: /about/
 ---
 
-Some information about you!
+자기소개를 해보자
 
-### More Information
+### Jekyll 블로깅
 
-A place to include any other types of information that you'd like to include about yourself.
+다음에 알아보자
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[G-Mail](mailto:tkdahr16@gmail.com)

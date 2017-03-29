@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: First blog
+name: 첫 블로그
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Jekyll에 대해 알아보자
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/17216717?v=3&u=06462153166e241c80bb364bf627321bb8a56869&s=400
@@ -19,7 +19,7 @@ avatar: https://avatars1.githubusercontent.com/u/17216717?v=3&u=06462153166e241c
 footer-links:
   dribbble:
   email: tkdahr16@gmail.com
-  facebook: tkdahr16@kut.ac.kr
+  facebook: https://www.facebook.com/profile.php?id=100011331232659
   flickr:
   github: ChanHyeok/ChanHyeok.github.io
   instagram:
@@ -31,6 +31,8 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
+paginate : 1
+paginate_path: "/blog/page:num/"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

@@ -34,6 +34,43 @@
       </div>
     </div>
 
+    <div class="categories" style="position:fixed;float:left;margin-left:100px">
+      <span
+          style="
+          font-weight: bold;
+          font-size: 2em;
+          line-height: 1.0em;
+          font-family: arial;
+          ">
+      <p>
+        categories
+      </p>
+    </span>
+
+      {% for post in site.posts %}
+      <span
+          style="
+          font-size: 1em;
+          line-height: 1.0em;
+          font-family: arial;
+          ">
+      {{ post.category }}
+      </span>
+
+      <span style="font-size: 1em;">
+        <article class="category">
+          {% for post in site.posts %}
+          <p>
+            {% if post.category %}
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
+          </p>
+          {% endfor %}
+        </article>
+        </span>
+      {% endfor %}
+    </div>
+
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
