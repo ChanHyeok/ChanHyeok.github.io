@@ -21,7 +21,7 @@ footer-links:
   email: tkdahr16@gmail.com
   facebook: tkdahr16@kut.ac.kr
   flickr:
-  github: chanhyeok/chanhyeok.github.io
+  github: ChanHyeok/ChanHyeok.github.io
   instagram:
   linkedin:
   pinterest:
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/chanhyeok.github.io"
+baseurl: "/ChanHyeok.github.io"
 
 #
 # !! You don't need to change any of the configuration flags below !!
